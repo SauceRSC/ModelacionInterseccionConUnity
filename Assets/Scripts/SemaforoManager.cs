@@ -8,7 +8,6 @@ public class SemaforoManager : MonoBehaviour
     public bool turno1, turno2;
     public static SemaforoManager Instance;
     [SerializeField] private GameObject[] semaforosBox = new GameObject[2];
-    [SerializeField] private Material[] colores;
 
     void Awake(){
         if(!Instance){
